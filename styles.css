@@ -3,6 +3,8 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /* MENU */
@@ -13,7 +15,8 @@ body {
   height: 4rem;
   background-color: #1f2937;
   padding: 8px 24px;
-  font-size: 16px;
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 .navbar img {
@@ -50,17 +53,17 @@ li {
   width: 20%;
   margin-right: 50px;
   text-align: left;
-  gap: 16px;
-  
 }
-.top-content h1 {
-  color: white;
-  font-size: 3rem;
+.left-top h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
 }
 
 .top-content p {
-  color: lightgrey;
-  font-size: 1.2rem;
+  color: #e5e7eb;
+  font-size: 18px;
 }
 
 .top-content button {
@@ -74,13 +77,10 @@ li {
   width: 84px;
 }
 
-.right-top {
-}
 
 .right-top img {
-  width: 300px;
+  width: 500px;
   height: auto;
-  
 }
 
 /* MIDDLE CONTENT */
@@ -115,7 +115,7 @@ h2 {
 /* QUOTE */
 
 .quote {
-  background-color: #E5E7EB;
+  background-color: #e5e7eb;
   padding: 4px 12rem;
 }
 
@@ -134,7 +134,7 @@ h2 {
 /* BOTTOM CONTENT */
 .bottom-content {
   display: flex;
-  background-color: #3882F6;
+  background-color: #3882f6;
   margin: 2rem 7rem;
   padding: 1rem 10rem;
   justify-content: space-between;
@@ -144,7 +144,7 @@ h2 {
 
 .text-1 {
   font-size: 18px;
-  color:white;
+  color: white;
   font-weight: bold;
 }
 
@@ -155,7 +155,7 @@ h2 {
 
 .bottom-content button {
   color: white;
-  background-color: #3882F6;
+  background-color: #3882f6;
   font-weight: bold;
   padding: 4px 16px;
   height: 2rem;
@@ -166,7 +166,7 @@ h2 {
 
 /* FOOTER */
 .footer {
-  background-color: #1F2937;
+  background-color: #1f2937;
   color: white;
   text-align: center;
   padding: 12px;
